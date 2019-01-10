@@ -1,6 +1,6 @@
 [Protocol]
-exec=lightpaycoin-qt '%u'
-protocol=lightpaycoin
+exec=supra-qt '%u'
+protocol=supra
 input=none
 output=none
 helper=true

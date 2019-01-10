@@ -1,7 +1,7 @@
 <!--- Remove this description and sections that do not apply -->
 
-This issue tracker is only for technical issues related to LightPayCoin Core.
-General LightPayCoin questions and/or support requests and are best directed to the [LightPayCoin Slack](http://lightpaycoin.slack.com).
+This issue tracker is only for technical issues related to Supra Core.
+General Supra questions and/or support requests and are best directed to the [Supra Slack](http://supra.slack.com).
 
 ### Describe the issue
 
@@ -20,7 +20,7 @@ Tell us what happens instead
 ### Screenshots.
 If the issue is related to the GUI, screenshots can be added to this issue via drag & drop.
 
-### What version of LightPayCoin Core are you using?
+### What version of Supra Core are you using?
 List the version number/commit ID, and if it is an official binary, self compiled or a distribution package.
 
 ### Machine specs:

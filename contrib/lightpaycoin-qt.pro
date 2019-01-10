@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/lightpaycoin-config.h \
+           src/supra-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/lightpaycoin-config.h \
+           src/config/supra-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -333,7 +333,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/lightpaycoin.moc \
+           src/qt/supra.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -374,9 +374,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/lightpaycoin-cli.cpp \
-           src/lightpaycoin-tx.cpp \
-           src/lightpaycoin.cpp \
+           src/supra-cli.cpp \
+           src/supra-tx.cpp \
+           src/supra.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -471,8 +471,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/lightpaycoin.cpp \
-           src/qt/lightpaycoinstrings.cpp \
+           src/qt/supra.cpp \
+           src/qt/suprastrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -550,7 +550,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_lightpaycoin.cpp \
+           src/test/test_supra.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -641,21 +641,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/lightpaycoin.qrc src/qt/lightpaycoin_locale.qrc
+RESOURCES += src/qt/supra.qrc src/qt/supra_locale.qrc
 
-TRANSLATIONS += src/qt/locale/lightpaycoin_bg.ts \
-                src/qt/locale/lightpaycoin_de.ts \
-                src/qt/locale/lightpaycoin_en.ts \
-                src/qt/locale/lightpaycoin_es.ts \
-                src/qt/locale/lightpaycoin_fi.ts \
-                src/qt/locale/lightpaycoin_fr.ts \
-                src/qt/locale/lightpaycoin_it.ts \
-                src/qt/locale/lightpaycoin_ja.ts \
-                src/qt/locale/lightpaycoin_pl.ts \
-                src/qt/locale/lightpaycoin_pt.ts \
-                src/qt/locale/lightpaycoin_ru.ts \
-                src/qt/locale/lightpaycoin_sk.ts \
-                src/qt/locale/lightpaycoin_sv.ts \
-                src/qt/locale/lightpaycoin_vi.ts \
-                src/qt/locale/lightpaycoin_zh_CN.ts \
-                src/qt/locale/lightpaycoin_zh_TW.ts
+TRANSLATIONS += src/qt/locale/supra_bg.ts \
+                src/qt/locale/supra_de.ts \
+                src/qt/locale/supra_en.ts \
+                src/qt/locale/supra_es.ts \
+                src/qt/locale/supra_fi.ts \
+                src/qt/locale/supra_fr.ts \
+                src/qt/locale/supra_it.ts \
+                src/qt/locale/supra_ja.ts \
+                src/qt/locale/supra_pl.ts \
+                src/qt/locale/supra_pt.ts \
+                src/qt/locale/supra_ru.ts \
+                src/qt/locale/supra_sk.ts \
+                src/qt/locale/supra_sv.ts \
+                src/qt/locale/supra_vi.ts \
+                src/qt/locale/supra_zh_CN.ts \
+                src/qt/locale/supra_zh_TW.ts

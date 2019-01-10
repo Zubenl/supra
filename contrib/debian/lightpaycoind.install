@@ -1,2 +1,2 @@
-usr/local/bin/lightpaycoind usr/bin
-usr/local/bin/lightpaycoin-cli usr/bin
+usr/local/bin/suprad usr/bin
+usr/local/bin/supra-cli usr/bin

@@ -1,25 +1,25 @@
-# /etc/conf.d/lightpaycoind: config file for /etc/init.d/lightpaycoind
+# /etc/conf.d/suprad: config file for /etc/init.d/suprad
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/lightpaycoin/lightpaycoin.conf"
+#BITCOIND_CONFIGFILE="/etc/supra/supra.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/lightpaycoind"
+#BITCOIND_PIDDIR="/var/run/suprad"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/lightpaycoind.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/suprad.pid"
 
-# Where to write lightpaycoind data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/lightpaycoind"
+# Where to write suprad data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/suprad"
 
-# User and group to own lightpaycoind process
-#BITCOIND_USER="lightpaycoin"
-#BITCOIND_GROUP="lightpaycoin"
+# User and group to own suprad process
+#BITCOIND_USER="supra"
+#BITCOIND_GROUP="supra"
 
-# Path to lightpaycoind executable
-#BITCOIND_BIN="/usr/bin/lightpaycoind"
+# Path to suprad executable
+#BITCOIND_BIN="/usr/bin/suprad"
 
-# Nice value to run lightpaycoind under
+# Nice value to run suprad under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

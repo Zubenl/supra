@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * LightPayCoin RPC command dispatcher.
+ * Supra RPC command dispatcher.
  */
 class CRPCTable
 {

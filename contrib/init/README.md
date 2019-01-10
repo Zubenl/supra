@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: lightpaycoind.service
-Upstart: lightpaycoind.conf
-OpenRC:  lightpaycoind.openrc
-         lightpaycoind.openrcconf
-CentOS:  lightpaycoind.init
+SystemD: suprad.service
+Upstart: suprad.conf
+OpenRC:  suprad.openrc
+         suprad.openrcconf
+CentOS:  suprad.init
 
 have been made available to assist packagers in creating node packages here.
 

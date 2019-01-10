@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package lightpaycoind/lightpaycoin-qt
-for Debian-based Linux systems. If you compile lightpaycoind/lightpaycoin-qt yourself, there are some useful files here.
+This directory contains files used to package suprad/supra-qt
+for Debian-based Linux systems. If you compile suprad/supra-qt yourself, there are some useful files here.
 
-## lightpaycoin: URI support ##
+## supra: URI support ##
 
 
-lightpaycoin-qt.desktop  (Gnome / Open Desktop)
+supra-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install lightpaycoin-qt.desktop
+	sudo desktop-file-install supra-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your lightpaycoinqt binary to `/usr/bin`
-and the `../../share/pixmaps/lightpaycoin128.png` to `/usr/share/pixmaps`
+the .desktop file or copy or symlink your supraqt binary to `/usr/bin`
+and the `../../share/pixmaps/supra128.png` to `/usr/share/pixmaps`
 
-lightpaycoin-qt.protocol (KDE)
+supra-qt.protocol (KDE)
 

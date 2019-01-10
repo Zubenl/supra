@@ -19,10 +19,10 @@ BEGIN
             VALUE "CompanyName",        "Lightpaycoin"
             VALUE "FileDescription",    "Lightpaycoin-cli (OSS RPC client for Lightpaycoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "lightpaycoin-cli"
+            VALUE "InternalName",       "supra-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "lightpaycoin-cli.exe"
+            VALUE "OriginalFilename",   "supra-cli.exe"
             VALUE "ProductName",        "Lightpaycoin-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

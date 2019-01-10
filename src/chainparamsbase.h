@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between lightpaycoin-cli and lightpaycoind)
+ * CBaseChainParams defines the base parameters (shared between supra-cli and suprad)
  * of a given instance of the Lightpaycoin system.
  */
 class CBaseChainParams

@@ -1,19 +1,19 @@
 [Unit]
-Description=LightPayCoin's distributed currency daemon
+Description=Supra's distributed currency daemon
 After=network.target
 
 [Service]
-User=lightpaycoin
-Group=lightpaycoin
+User=supra
+Group=supra
 
 Type=forking
-PIDFile=/var/lib/lightpaycoind/lightpaycoind.pid
+PIDFile=/var/lib/suprad/suprad.pid
 
-ExecStart=/usr/bin/lightpaycoind -daemon -pid=/var/lib/lightpaycoind/lightpaycoind.pid \
-          -conf=/etc/lightpaycoin/lightpaycoin.conf -datadir=/var/lib/lightpaycoind
+ExecStart=/usr/bin/suprad -daemon -pid=/var/lib/suprad/suprad.pid \
+          -conf=/etc/supra/supra.conf -datadir=/var/lib/suprad
 
-ExecStop=-/usr/bin/lightpaycoin-cli -conf=/etc/lightpaycoin/lightpaycoin.conf \
-         -datadir=/var/lib/lightpaycoind stop
+ExecStop=-/usr/bin/supra-cli -conf=/etc/supra/supra.conf \
+         -datadir=/var/lib/suprad stop
 
 Restart=always
 PrivateTmp=true

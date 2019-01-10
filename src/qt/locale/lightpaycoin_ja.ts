@@ -260,6 +260,6 @@
     </message>
     </context>
 <context>
-    <name>lightpaycoin-core</name>
+    <name>supra-core</name>
     </context>
 </TS>

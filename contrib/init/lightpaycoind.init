@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-#  lightpaycoind The LightPayCoin core server.
+#  suprad The Supra core server.
 #
 #
 # chkconfig: 345 80 20
-# description: lightpaycoind
-# processname: lightpaycoind
+# description: suprad
+# processname: suprad
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/lightpaycoind, see below
-if [ -f /etc/sysconfig/lightpaycoind ]; then
-        . /etc/sysconfig/lightpaycoind
+# you can override defaults in /etc/sysconfig/suprad, see below
+if [ -f /etc/sysconfig/suprad ]; then
+        . /etc/sysconfig/suprad
 fi
 
 RETVAL=0
 
-prog=lightpaycoind
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/lightpaycoind
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/lightpaycoind}
+prog=suprad
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/suprad
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/suprad}
 
-# lightpaycoind defaults to /usr/bin/lightpaycoind, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/lightpaycoind}
+# suprad defaults to /usr/bin/suprad, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/suprad}
 
-# lightpaycoind opts default to -disablewallet, override with BITCOIND_OPTS
+# suprad opts default to -disablewallet, override with BITCOIND_OPTS
 bitcoind_opts=${BITCOIND_OPTS}
 
 start() {

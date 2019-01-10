@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>LightPayCoin-Qt</string>
+  <string>Supra-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.lightpaycoin.Lightpaycoin-Qt</string>
+  <string>io.supra.Lightpaycoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.lightpaycoin.LightpaycoinPayment</string>
+      <string>io.supra.LightpaycoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>lightpaycoin</string>
+        <string>supra</string>
       </array>
     </dict>
   </array>
@@ -52,7 +52,7 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.lightpaycoin.paymentrequest</string>
+      <string>io.supra.paymentrequest</string>
       <key>UTTypeDescription</key>
       <string>Lightpaycoin payment request</string>
       <key>UTTypeConformsTo</key>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-lightpaycoin-payment-request</string>
+        <string>application/x-supra-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>lightpaycoinpaymentrequest</string>
+          <string>suprapaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.lightpaycoin.paymentrequest</string>
+        <string>io.supra.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>
